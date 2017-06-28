@@ -5,4 +5,4 @@ GenericName=MMORPG
 Comment=Play Albion Online
 Icon=com.albiononline.AlbionOnline
 Exec=/app/bin/albion-online
-Categories=Game
+Categories=Game;RolePlaying;
