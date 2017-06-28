@@ -4,5 +4,5 @@ Name=Albion Online
 GenericName=MMORPG
 Comment=Play Albion Online
 Icon=com.albiononline.AlbionOnline
-Exec=/app/bin/albion-online
+Exec=albion-online
 Categories=Game
