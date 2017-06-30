@@ -1,8 +1,8 @@
 {
     "app-id": "com.albiononline.AlbionOnline",
-    "runtime": "org.freedesktop.Platform",
-    "runtime-version": "1.6",
-    "sdk": "org.freedesktop.Sdk",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "3.24",
+    "sdk": "org.gnome.Sdk",
     "command": "albion-online",
     "tags": ["proprietary"],
     "finish-args": [
