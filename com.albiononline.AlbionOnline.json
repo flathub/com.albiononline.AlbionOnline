@@ -35,7 +35,8 @@
                 "install -D albion-online /app/bin/albion-online",
                 "install -D apply_extra /app/bin/apply_extra",
                 "install -Dm644 com.albiononline.AlbionOnline.appdata.xml /app/share/appdata/com.albiononline.AlbionOnline.appdata.xml",
-                "install -Dm644 com.albiononline.AlbionOnline.desktop /app/templates/com.albiononline.AlbionOnline.desktop"
+                "install -Dm644 com.albiononline.AlbionOnline.desktop /app/templates/com.albiononline.AlbionOnline.desktop",
+                "ln -s /lib/libdl.so.2 /app/lib/libdl.so"
             ],
             "sources": [
                 {
