@@ -17,13 +17,21 @@
     "modules": [
         "shared-modules/udev/udev-175.json",
         {
+            "name": "sndio",
+            "sources": [
+                {
+                    "type": "archive",
+                    "url" : "http://www.sndio.org/sndio-1.2.0.tar.gz",
+                    "sha256": "b9808e189481904a4404b0c1715ad0c4b301e72abca8e49653bb526ff4e16cdc"
+                }
+            ]
+        },
+        {
             "name": "albion-online",
             "buildsystem": "simple",
             "build-commands": [
                 "gcc -W -Wall splitelf.c -o splitelf",
-                "gcc -W -Wall -shared -fPIC do_not_load_bad_sdl.c -o do_not_load_bad_sdl.so",
                 "install -D splitelf /app/bin/splitelf",
-                "install -D do_not_load_bad_sdl.so /app/libexec/do_not_load_bad_sdl.so",
                 "install -D albion-online /app/bin/albion-online",
                 "install -D apply_extra /app/bin/apply_extra",
                 "install -Dm644 com.albiononline.AlbionOnline.appdata.xml /app/share/appdata/com.albiononline.AlbionOnline.appdata.xml",
@@ -33,10 +41,6 @@
                 {
                     "type": "file",
                     "path": "splitelf.c"
-                },
-                {
-                    "type": "file",
-                    "path": "do_not_load_bad_sdl.c"
                 },
                 {
                     "type": "file",
