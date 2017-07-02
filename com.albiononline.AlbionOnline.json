@@ -17,27 +17,7 @@
     "modules": [
         "shared-modules/udev/udev-175.json",
         {
-            "name": "alsa-lib",
-            "config-opts": [ "--disable-aload", "--disable-alisp",
-                             "--disable-old-symbols",
-                             "--with-pcm-plugins=hw ioplug extplug"],
-            "sources": [
-                {
-                    "type": "archive",
-                    "url": "http://pkgs.fedoraproject.org/repo/pkgs/alsa-lib/alsa-lib-1.1.3.tar.bz2/eefe5992567ba00d6110a540657aaf5c/alsa-lib-1.1.3.tar.bz2",
-                    "sha256": "71282502184c592c1a008e256c22ed0ba5728ca65e05273ceb480c70f515969c"
-                },
-                {
-                    "type": "script",
-                    "dest-filename": "autogen.sh",
-                    "commands": [ "autoreconf -i" ]
-                }
-            ]
-        },
-        {
             "name": "sndio",
-            "config-opts": ["CFLAGS=-I/app/include",
-                            "LDFLAGS=-L/app/lib"],
             "sources": [
                 {
                     "type": "archive",
