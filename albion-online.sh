@@ -1,6 +1,6 @@
 #!/bin/sh
 
-available_verion="$(cat /app/extra/data/launcher/version.txt)"
+available_version="$(cat /app/extra/data/launcher/version.txt)"
 home_version="$(cat "${HOME}/.albiononline/launcher/version.txt" 2>/dev/null)"
 if [ "${home_version}" != "${available_version}" ]; then
     mkdir -p "${HOME}/.albiononline"
