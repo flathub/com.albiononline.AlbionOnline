@@ -12,7 +12,7 @@
         "--share=network",
         "--device=dri",
         "--persist=.albiononline",
-        "--extra-data=albion-online-setup:21777d6ae6d5b16259a770bd6aa0f05ecbb037b08550e8f89e3edd6ff7179982:69466446::https://live.albiononline.com/clients/albion-online-setup"
+        "--extra-data=albion-online-setup:dd9b5436c2787ab1bfe87c0eec3daebd59107ad13c7aa90926f30f351a44a3b5:69466446::https://live.albiononline.com/clients/albion-online-setup"
     ],
     "modules": [
         "shared-modules/udev/udev-175.json",
