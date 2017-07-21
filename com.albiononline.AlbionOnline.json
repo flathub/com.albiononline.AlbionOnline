@@ -34,6 +34,7 @@
                 "install -D splitelf /app/bin/splitelf",
                 "install -D albion-online /app/bin/albion-online",
                 "install -D apply_extra /app/bin/apply_extra",
+                "install -D get_albion_online_download_uri /app/bin/get_albion_online_download_uri",
                 "install -Dm644 com.albiononline.AlbionOnline.appdata.xml /app/share/appdata/com.albiononline.AlbionOnline.appdata.xml",
                 "install -Dm644 com.albiononline.AlbionOnline.desktop /app/templates/com.albiononline.AlbionOnline.desktop",
                 "ln -s /lib/libdl.so.2 /app/lib/libdl.so"
@@ -52,6 +53,11 @@
                     "type": "file",
                     "path": "apply_extra.sh",
                     "dest-filename": "apply_extra"
+                },
+                {
+                    "type": "file",
+                    "path": "get_download_uri.py",
+                    "dest-filename": "get_albion_online_download_uri"
                 },
                 {
                     "type": "file",
