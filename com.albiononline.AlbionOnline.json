@@ -12,7 +12,7 @@
         "--share=network",
         "--device=dri",
         "--persist=.albiononline",
-        "--extra-data=albion-online-setup:041af9423cd86d3368631218215c7de93717efb7d9c8bd7b946ec6a0b0027cf4:69470986::https://live.albiononline.com/autoupdate/launcher-linux-setup-1.0.34.162"
+        "--extra-data=albion-online-setup:2c3a6d322627624ca9884a7c7c1663d17cede4da76c29a0533a576c0500b4cee:69471233::https://live.albiononline.com/autoupdate/launcher-linux-setup-1.0.34.164"
     ],
     "modules": [
         "shared-modules/udev/udev-175.json",
