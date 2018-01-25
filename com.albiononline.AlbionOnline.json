@@ -11,8 +11,7 @@
         "--socket=pulseaudio",
         "--share=network",
         "--device=dri",
-        "--persist=.albiononline",
-        "--extra-data=albion-online-setup:b409869850a29bbc76c022ae086f0df14f3bcf39355f90a22cca39ff3cf9acd0:69470469::https://live.albiononline.com/autoupdate/launcher-linux-setup-1.0.34.184"
+        "--persist=.albiononline"
     ],
     "modules": [
         "shared-modules/udev/udev-175.json",
@@ -35,6 +34,8 @@
                 "install -D albion-online /app/bin/albion-online",
                 "install -D apply_extra /app/bin/apply_extra",
                 "install -D get_albion_online_download_uri /app/bin/get_albion_online_download_uri",
+                "install -Dm644 com.albiononline.AlbionOnline-64.png /app/share/icons/hicolor/64x64/apps/com.albiononline.AlbionOnline.png",
+                "install -Dm644 com.albiononline.AlbionOnline.png /app/share/icons/hicolor/128x128/apps/com.albiononline.AlbionOnline.png",
                 "install -Dm644 com.albiononline.AlbionOnline.appdata.xml /app/share/appdata/com.albiononline.AlbionOnline.appdata.xml",
                 "install -Dm644 com.albiononline.AlbionOnline.desktop /app/templates/com.albiononline.AlbionOnline.desktop",
                 "ln -s /lib/libdl.so.2 /app/lib/libdl.so"
@@ -61,11 +62,26 @@
                 },
                 {
                     "type": "file",
+                    "path": "com.albiononline.AlbionOnline.png"
+                },
+                {
+                    "type": "file",
+                    "path": "com.albiononline.AlbionOnline-64.png"
+                },
+                {
+                    "type": "file",
                     "path": "com.albiononline.AlbionOnline.appdata.xml"
                 },
                 {
                     "type": "file",
                     "path": "com.albiononline.AlbionOnline.desktop"
+                },
+                {
+                    "type": "extra-data",
+                    "filename": "albion-online-setup",
+                    "url": "https://live.albiononline.com/autoupdate/launcher-linux-setup-1.0.34.184",
+                    "sha256": "b409869850a29bbc76c022ae086f0df14f3bcf39355f90a22cca39ff3cf9acd0",
+                    "size": 69470469 
                 }
             ]
         }
