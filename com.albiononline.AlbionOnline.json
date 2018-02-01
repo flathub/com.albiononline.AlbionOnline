@@ -37,7 +37,7 @@
                 "install -Dm644 com.albiononline.AlbionOnline-64.png /app/share/icons/hicolor/64x64/apps/com.albiononline.AlbionOnline.png",
                 "install -Dm644 com.albiononline.AlbionOnline.png /app/share/icons/hicolor/128x128/apps/com.albiononline.AlbionOnline.png",
                 "install -Dm644 com.albiononline.AlbionOnline.appdata.xml /app/share/appdata/com.albiononline.AlbionOnline.appdata.xml",
-                "install -Dm644 com.albiononline.AlbionOnline.desktop /app/templates/com.albiononline.AlbionOnline.desktop",
+                "install -Dm644 com.albiononline.AlbionOnline.desktop /app/share/applications/com.albiononline.AlbionOnline.desktop",
                 "ln -s /lib/libdl.so.2 /app/lib/libdl.so"
             ],
             "sources": [
