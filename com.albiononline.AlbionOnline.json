@@ -1,7 +1,7 @@
 {
     "app-id": "com.albiononline.AlbionOnline",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.24",
+    "runtime-version": "3.28",
     "sdk": "org.gnome.Sdk",
     "command": "albion-online",
     "tags": ["proprietary"],
