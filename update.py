@@ -4,7 +4,7 @@ import xml.etree.ElementTree as ET
 from urllib.request import urlopen
 from urllib.parse import urljoin
 from hashlib import sha256
-import re
+import json
 
 base_uri = 'https://live.albiononline.com/autoupdate/'
 
@@ -27,12 +27,11 @@ while True:
 with open('com.albiononline.AlbionOnline.json', 'r') as f:
     origin = f.read()
 
-match = re.compile(r'"--extra-data=albion-online-setup:[0-9A-Fa-f]*:[0-9]*::https://live.albiononline.com/autoupdate/[^"]*"')
-replacement = '"--extra-data=albion-online-setup:{hash}:{size}::https://live.albiononline.com/autoupdate/{filename}"'
-value = replacement.format(hash = h.hexdigest(),
-                           size = size,
-                           filename = name)
-replaced = match.sub(value, origin)
+with open('com.albiononline.AlbionOnline.json', 'r') as f:
+    data = json.load(f)
+data["modules"][-1]["sources"][-1]["url"] = f"https://live.albiononline.com/autoupdate/{name}"
+data["modules"][-1]["sources"][-1]["sha256"] = h.hexdigest()
+data["modules"][-1]["sources"][-1]["size"] = size
 
 with open('com.albiononline.AlbionOnline.json', 'w') as f:
-    f.write(replaced)
+    json.dump(data, f, indent=4)
