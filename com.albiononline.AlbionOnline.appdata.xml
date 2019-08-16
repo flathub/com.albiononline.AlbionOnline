@@ -17,9 +17,6 @@
     <screenshot>
       <image type="source">https://albiononline.com/wp-content/uploads/2014/08/castle.jpg</image>
     </screenshot>
-    <screenshot>
-      <image type="source">https://assets.albiononline.com/uploads/media/default/media/c9dd2383ab3ca1d3c75f2d18bca36b6d9dd43d61.jpeg</image>
-    </screenshot>
   </screenshots>
   <releases>
     <release date="2017-12-30" version="1.0.34.184"/>
