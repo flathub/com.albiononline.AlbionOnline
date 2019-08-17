@@ -1,7 +1,7 @@
 {
     "app-id": "com.albiononline.AlbionOnline",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "3.30",
+    "runtime-version": "3.32",
     "sdk": "org.gnome.Sdk",
     "command": "albion-online",
     "tags": [
@@ -12,7 +12,7 @@
         "--socket=x11",
         "--socket=pulseaudio",
         "--share=network",
-        "--device=dri",
+        "--device=all",
         "--persist=.albiononline"
     ],
     "modules": [
