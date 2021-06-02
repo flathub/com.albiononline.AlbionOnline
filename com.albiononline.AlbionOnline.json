@@ -1,7 +1,7 @@
 {
     "app-id": "com.albiononline.AlbionOnline",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "19.08",
+    "runtime-version": "20.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "albion-online",
     "tags": [
@@ -80,9 +80,9 @@
                 {
                     "type": "extra-data",
                     "filename": "albion-online-setup",
-                    "url": "https://live.albiononline.com/autoupdate/launcher-linux-setup-1.0.34.253",
-                    "sha256": "b2b465c7696df9c368db828d139115d6179a327f2968f1f64d96daa44d82063d",
-                    "size": 87116891
+                    "url": "https://live.albiononline.com/clients/20210601124708/albion-online-setup",
+                    "sha256": "e220437b7a943769af42196ed23df2e6652b147f2eb78f6ad8f60a0c0028b078",
+                    "size": 87153865
                 }
             ]
         }
