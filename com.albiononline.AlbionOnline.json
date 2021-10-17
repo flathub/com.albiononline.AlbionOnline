@@ -80,9 +80,9 @@
                 {
                     "type": "extra-data",
                     "filename": "albion-online-setup",
-                    "url": "https://live.albiononline.com/autoupdate/launcher-linux-setup-1.0.34.253",
-                    "sha256": "b2b465c7696df9c368db828d139115d6179a327f2968f1f64d96daa44d82063d",
-                    "size": 87116891
+                    "url": "https://live.albiononline.com/autoupdate/launcher-linux-setup-1.0.34.342",
+                    "sha256": "e22b9f1f2eee2655f8516670faaa04d7bbac732d1ae7101505d91c143995491a",
+                    "size": 87153536
                 }
             ]
         }
