@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
 <application>
   <id type="desktop">com.albiononline.AlbionOnline.desktop</id>
   <metadata_license>CC0-1.0</metadata_license>
@@ -12,10 +13,10 @@
   </description>
   <screenshots>
     <screenshot>
-      <image type="source">https://albiononline.com/wp-content/uploads/2014/05/Albion-Online-2014-06-13-13-38-35-59.jpg</image>
+      <image type="source">https://cdn.cloudflare.steamstatic.com/steam/apps/761890/ss_ace9036fa9be3f15a81ebeb64c5843ec79b72be4.jpg</image>
     </screenshot>
     <screenshot>
-      <image type="source">https://albiononline.com/wp-content/uploads/2014/08/castle.jpg</image>
+      <image type="source">https://cdn.cloudflare.steamstatic.com/steam/apps/761890/ss_c197aa77b6f65af34fd51292e9033da6960ee23f.jpg</image>
     </screenshot>
   </screenshots>
   <releases>

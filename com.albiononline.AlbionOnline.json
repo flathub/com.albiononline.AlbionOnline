@@ -1,7 +1,7 @@
 {
     "app-id": "com.albiononline.AlbionOnline",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "21.08",
+    "runtime-version": "23.08",
     "sdk": "org.freedesktop.Sdk",
     "command": "albion-online",
     "tags": [
@@ -26,8 +26,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://kerberos.org/dist/krb5/1.19/krb5-1.19.2.tar.gz",
-                    "sha256": "10453fee4e3a8f8ce6129059e5c050b8a65dab1c257df68b99b3112eaa0cdf6a"
+                    "url": "https://kerberos.org/dist/krb5/1.21/krb5-1.21.2.tar.gz",
+                    "sha256": "9560941a9d843c0243a71b17a7ac6fe31c7cebb5bce3983db79e52ae7e850491"
                 }
             ]
         },
@@ -95,9 +95,9 @@
                 {
                     "type": "extra-data",
                     "filename": "albion-online-setup",
-                    "url": "https://live.albiononline.com/autoupdate/launcher-linux-setup-1.0.34.404",
-                    "sha256": "92e9bb0c22a006fc63ea6e73935d65c8aa299c0d39030f6ea7bb8cf97b9e7a9d",
-                    "size": 106518821
+                    "url": "https://live.albiononline.com/autoupdate/launcher-linux-setup-1.0.34.459",
+                    "sha256": "5b01feb725faad14bc8c7c61b3f37c75d00a572e5ed7f7d24a197cbe78bb4bac",
+                    "size": 106678724
                 }
             ]
         }
