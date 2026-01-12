@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id type="desktop">com.albiononline.AlbionOnline</id>
+  <id>com.albiononline.AlbionOnline</id>
   <launchable type="desktop-id">com.albiononline.AlbionOnline.desktop</launchable>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary=https://albiononline.com/en/terms_and_conditions</project_license>
@@ -13,8 +13,14 @@
     <name>Sandbox Interactive GmbH</name>
   </developer>
   <description>
+    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Sandbox Interactive GmbH.**</p>
     <p>
-      Albion Online is a sandbox MMORPG set in an open medieval fantasy world. It has a fully player-driven economy; all equipment items are player-crafted. You can freely combine armor pieces and weapons in our unique classless system – you are what you wear. Explore the world and tackle challenging PvE content. Engage other adventurers in small- or large-scale PvP, and conquer territories. Gather. Craft. Trade. Conquer. Leave your mark in the world.
+      Albion Online is a sandbox MMORPG set in an open medieval fantasy world.
+      It has a fully player-driven economy; all equipment items are player-crafted.
+      You can freely combine armor pieces and weapons in our unique classless system – you are what you wear.
+      Explore the world and tackle challenging PvE content.
+      Engage other adventurers in small- or large-scale PvP, and conquer territories.
+      Gather. Craft. Trade. Conquer. Leave your mark in the world.
     </p>
   </description>
   <screenshots>
@@ -28,34 +34,16 @@
   <releases>
     <release date="2017-12-30" version="1.0.34.184"/>
   </releases>
-  <url type="homepage">https://albiononline.com/</url>
-    <content_rating type="oars-1.1">
+  <url type="homepage">https://albiononline.com</url>
+  <content_rating type="oars-1.1">
     <content_attribute id="violence-cartoon">intense</content_attribute>
     <content_attribute id="violence-fantasy">intense</content_attribute>
-    <content_attribute id="violence-realistic">none</content_attribute>
     <content_attribute id="violence-bloodshed">mild</content_attribute>
-    <content_attribute id="violence-sexual">none</content_attribute>
     <content_attribute id="violence-desecration">mild</content_attribute>
     <content_attribute id="violence-slavery">mild</content_attribute>
-    <content_attribute id="violence-worship">none</content_attribute>
     <content_attribute id="drugs-alcohol">mild</content_attribute>
-    <content_attribute id="drugs-narcotics">none</content_attribute>
-    <content_attribute id="drugs-tobacco">none</content_attribute>
-    <content_attribute id="sex-nudity">none</content_attribute>
-    <content_attribute id="sex-themes">none</content_attribute>
-    <content_attribute id="sex-homosexuality">none</content_attribute>
-    <content_attribute id="sex-prostitution">none</content_attribute>
-    <content_attribute id="sex-adultery">none</content_attribute>
-    <content_attribute id="sex-appearance">none</content_attribute>
-    <content_attribute id="language-profanity">none</content_attribute>
-    <content_attribute id="language-humor">none</content_attribute>
-    <content_attribute id="language-discrimination">none</content_attribute>
     <content_attribute id="social-chat">intense</content_attribute>
     <content_attribute id="social-info">intense</content_attribute>
-    <content_attribute id="social-audio">none</content_attribute>
-    <content_attribute id="social-location">none</content_attribute>
-    <content_attribute id="social-contacts">none</content_attribute>
     <content_attribute id="money-purchasing">intense</content_attribute>
-    <content_attribute id="money-gambling">none</content_attribute>
   </content_rating>
 </component>
